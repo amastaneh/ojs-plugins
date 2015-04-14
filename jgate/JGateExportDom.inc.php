@@ -144,7 +144,7 @@ class JGateExportDom {
 		}
 
 		/* Generate DOI */
-		XMLCustomWriter::createChildWithText($doc, $articleNode, 'DOI', $article->getDOI());
+		XMLCustomWriter::createChildWithText($doc, $articleNode, 'DOI', '');
 
 
 		/* Article Keywords TODO*/
